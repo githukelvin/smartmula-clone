@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&display=swap');
+:root{
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	overflow-x: hidden;
+	background-image: url('https://smartmula.com/user/assets/img/media/bg-img1.jpg');
+}
+main{
+	width: 100%;
+}
+.container{
+width: 50%;
+
+border-radius: 6px;
+margin: 5em auto;
+display: flex;
+background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.login{
+	width: 50%;
+	
+	background-color: color: rgba(255,255,255,.8);
+}
+.card{
+	width: 50%;
+	background-color: #4d65d9;
+	
+	float: right;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	display: flex;
+	flex-direction: column;
+}
+.txtl{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 550;
+	margin-bottom: 10px;
+	color: #f4c3c3;
+
+}
+h2{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-weight: 500;
+	font-size: 1.75rem;
+	line-height: 1.2;
+	padding-top: 40px;
+	padding-left: 25px;
+	color: rgba(255,255,255,.8);
+}
+form label{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-weight: 400;
+}
+form{
+	margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.whats a{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+}
+.whats{
+	margin-left: 45px;
+	padding-bottom: 10px;
+	color: hsl(0, 0%, 100%);
+
+}
+hr{
+	margin-left: 20px;
+	margin-bottom: 25px;
+	width: 230px;
+	height: 5px solid hsl(0 ,0%, 100%);
+	
+}
+
+.user{
+	background-color: transparent;
+	border: 1px solid rgba(255,255,255,.1) !important;
+	width: 80% ;
+	height: calc(1.5em + 0.95rem + 2px);
+	border-radius: 6px;
+	padding: .375rem .75rem;
+
+}
+.wel{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-weight: 400;
+	color: rgba(255,255,255,.5) !important;
+	font-size: 13px;
+	padding-left: 25px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	line-height: 19.5px;
+	margin-bottom: 1.5rem !important;
+}
+input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	border: none;
+	margin-top: 15px;
+	border: rgba(255,255,255,.1) solid 1px;
+	background-color: #32428f;
+	margin-left: 32%;
+}
+span{
+	color:rgba(255,255,255,.2) !important;
+	font-weight: 400;
+	line-height: 2px;
+	font-size: 13px;
+
+}
+.btn{
+	padding: 10px 38%;
+	border: none;
+	border-radius: 6px;
+	margin-left: 25px;
+	margin-top: 20px ;
+	color: #fff;
+	background-color: #4d65d9 !important;
+	border-color: #4d65d9 !important;
+	
+	font-size: .875rem;
+	line-height: 1.5;
+
+}
+.pas{
+	display: block;
+}
+.eye{
+	cursor: pointer;
+	width: 70px;
+	height: 50px;
+	border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   color: #fff;
+   background-color: rgba(255,255,255,.2) !important;
+   border-color: rgba(255,255,255,.2) !important;
+   position: relative;
+   top: 0px;
+   left: -5px;
+
+
+}
+input[type="text"]{
+	color: rgba(255,255,255,.7) !important;
+	line-height: 1.8rem;
+	font-size: 0.875rem;
+	font-weight: 400;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+:placeholder{
+
+	color: rgba(255,255,255,.7) !important;
+}
+.pass{
+	width: 60%;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.fgot{
+	font-size: .865rem;
+font-weight: 400;
+line-height: 1.5;
+padding-left: 20px;
+text-align: left;
+font-family: hind siliguri,sans-serif;
+color: #fff;
+margin-top: 40px;
+direction: ltr;
+-webkit-text-size-adjust: none;
+font-feature-settings: "liga"0;
+}
+.reg a {
+	 color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.reg{
+	margin-top: 10px;
+	padding-left: 20px;
+	color: rgba(255,255,255,.2) !important;
+}
+.or{
+	font-family: hind siliguri,sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+}
+.or::after{
+	background-color: rgba(255,255,255,.1);
+	content: "";
+position: absolute;
+width: 390px;
+
+height: 1px;
+left: 25%;
+right: 0;
+top: 690px;
+}
+.sign{
+	color: #fff !important;
+	line-height: 1.2;
+	font-size: 1.75rem;
+
+	text-align: center;
+	font-weight: 400;
+	font-family: hind siliguri,sans-serif;
+}
+.text{
+	color: rgba(255,255,255,.6);
+	line-height: 19.5px;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	padding: 1em 2em;
+}
+.social{
+	margin-top: 30px;
+	margin-left: 30%;
+	padding-bottom: 40px ;
+
+}
+.twi{
+	padding: 10px;
+	cursor: pointer;
+	box-sizing:border-box;
+	border-radius: 50% !important;
+	color: #01b8ff !important;
+	background-color: rgba(1,184,255,.2) !important;
+
+}
+.goo{
+	padding: 10px;
+	color: #fd6074 !important;
+	cursor: pointer;
+		box-sizing:border-box;
+	border-radius: 50% !important;
+	background-color: rgba(253,96,116,.2) !important;
+}
+.fac{
+	padding: 10px;
+	color: #fff !important;
+	cursor: pointer;
+		box-sizing:border-box;
+	border-radius: 50% !important;
+	background-color: rgba(77,101,217,.2) !important;
+}
+.head{
+	margin-top: 90px;
+}
+@media (max-width: 500px){
+	.container{
+		width: 80%;
+	}
+	.login{
+		width: 100%;
+	}
+	.card{
+		display: none;
+	}
+	.or::after{
+		width: 400px;
+		left: 10%;
+	}
+}
+@media(max-width: 375px){
+	.container{
+		justify-content: center;
+		width: 97%;
+		margin-left: 6px;
+	}
+	.card{
+		display: none;
+	}
+	.login{
+		width: 100%;
+	}
+	.or::after{
+		width:365px;
+		left: 1%;
+	}
+	@media(max-width: 350px){
+		.container{
+			width: 90%;
+			margin-left: 15px;
+
+		}
+		.login{
+			width: 100%;
+		}
+		.or::after{
+		width:317px;
+		left: 4%;
+	}
+		.eye{
+			width: 50px;
+			top: 0px;
+			height: 52px;
+		}
+		@media(max-width: 300px){
+			.container{
+				width: 97%%;
+				margin-left: 15px;
+			}
+			.btn{
+				padding: 10px 35%;
+			}
+			.login{
+			width: 100%;
+		}
+		.eye{
+			top: 1px;
+		}
+		.or::after{
+		width:270px;
+		left: 5%;
+		top: 715px;
+	}
+	.eye{
+		top: 1px;
+		}
+	}
+	}
+}
